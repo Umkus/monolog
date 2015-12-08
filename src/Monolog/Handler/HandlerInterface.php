@@ -47,7 +47,7 @@ interface HandlerInterface
      *
      * @param  array   $record The record to handle
      * @return Boolean false means the record was either not processed or that this handler allows bubbling.
-     *                 any other value means this handler handled the record, and that bubbling is not permitted.
+     *                 any other value means that this handler handled the record, and that bubbling is not permitted.
      *
      */
     public function handle(array $record);
